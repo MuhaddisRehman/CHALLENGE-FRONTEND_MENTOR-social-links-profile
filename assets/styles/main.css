@@ -77,8 +77,12 @@ h1 {
 .links li {
   font-weight: var(--font-weight-semibold);
   border-radius: var(--border-radius);
-
   background-color: var(--clr-grey-700);
   width: 100%;
   padding: 0.8rem 0;
+}
+.links li:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-grey-900);
+  cursor: pointer;
 }
